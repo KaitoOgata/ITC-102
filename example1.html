@@ -1,5 +1,197 @@
     <!DOCTYPE html>↩
-    <html lang="en">↩
+    <html lang="en">
+        
+body {
+font : 9pt Arial, Helvetica, sans-serif;
+color : #000000;
+background : url(bg.gif) left top repeat fixed #00004A;
+margin : 0;
+}
+p {
+font : 9pt Arial, Helvetica, sans-serif;
+text-align : left;
+}
+a:link, a:visited {
+color : #00004A;
+font-weight : bold;
+text-decoration : underline;
+}
+a:hover, a:active {
+color : #C17535;
+font-weight : bold;
+text-decoration : underline;
+}
+h1, h2, .extra1, .extra2, .extra3, .extra4, .extra5, .extra6 {
+display : none;
+}
+h3 {
+text-indent : 100%;
+white-space : nowrap;
+overflow : hidden;
+}
+.page-wrapper {
+display : block;
+position : relative;
+width : 700px;
+margin : 0 auto;
+background : url(bgend.jpg) left bottom no-repeat #FFFFFF;
+padding-bottom : 20px;
+}
+.intro {
+background : url(header.jpg) 0 0 no-repeat #FFFFFF;
+padding-top : 471px;
+}
+.summary {
+position : absolute;
+top : 0;
+left : 0;
+width : 700px;
+color : #B9E0FF;
+}
+.summary a:link, .summary a:visited {
+color : #B9E0FF;
+font-weight : bold;
+text-decoration : underline;
+}
+.summary a:hover, .summary a:active {
+color : #00004A;
+font-weight : bold;
+text-decoration : underline;
+}
+.summary p:first-child {
+display : none;
+}
+.summary p:last-child {
+font-size : 8pt;
+text-align : right;
+margin : 5px;
+}
+.preamble, .supporting {
+width : 410px;
+text-align : left;
+}
+.preamble {
+background : url(preamble.jpg) left top no-repeat;
+padding : 74px 10px 5px 10px;
+}
+.preamble h3, .supporting h3 {
+display : none;
+}
+.explanation {
+background : url(explanation.jpg) left top no-repeat;
+padding : 44px 10px 0;
+}
+.participation {
+background : url(participation.jpg) left top no-repeat;
+padding : 44px 10px 0;
+}
+.benefits {
+background : url(benefits.jpg) left top no-repeat;
+padding : 44px 10px 0;
+}
+.requirements {
+background : url(requirements.jpg) left top no-repeat;
+padding : 44px 10px 10px 10px;
+}
+footer {
+text-align : center;
+font-size : 8pt;
+font-weight : bold;
+font-family : Arial, Helvetica, sans-serif;
+padding : 10px;
+}
+footer a:link, footer a:visited {
+margin-right : 15px;
+color : #C17535;
+}
+footer a:hover {
+margin-right : 15px;
+color : #00004A;
+}
+.sidebar {
+position : absolute;
+top : 471px;
+left : 437px;
+width : 263px;
+background-image : url(bglist.gif);
+}
+.sidebar .wrapper {
+font : 8pt Arial, Helvetica, sans-serif;
+color : #C17535;
+width : 263px;
+background : url(listend.jpg) left bottom no-repeat;
+}
+.sidebar h3 {
+margin : 0;
+width : 263px;
+height : 32px;
+}
+.sidebar h3.select {
+background : url(select.gif) left top no-repeat;
+height : 177px;
+}
+.sidebar h3.archives {
+background : url(archives.gif) left top no-repeat;
+}
+.sidebar h3.resources {
+background : url(resources.gif) left top no-repeat;
+}
+.sidebar h3.favorites {
+background : url(favorites.gif) left top no-repeat;
+}
+.zen-resources {
+padding-bottom : 176px;
+}
+.sidebar ul {
+margin : 0 0 0 28px;
+padding : 0;
+width : 211px;
+}
+.sidebar li {
+display : block;
+padding : 5px;
+border-bottom-width : 1px;
+border-bottom-style : dashed;
+border-bottom-color : #D2C598;
+}
+.sidebar li a {
+display : block;
+color : #5B2C02;
+}
+.design-selection li a:link, .design-selection li a:visited, #lfavorites li a:link, #lfavorites li a:visited {
+text-transform : uppercase;
+color : #5B2C02;
+font-weight : bold;
+text-decoration : none;
+}
+.design-archives li a:link, .design-archives a:visited, .zen-resources li a:link, .zen-resources li a:visited {
+text-transform : uppercase;
+font-weight : bold;
+text-decoration : none;
+}
+.sidebar li a:hover, .sidebar li a:active {
+color : #000000;
+}
+.sidebar li a.designer-name:link, .sidebar li a.designer-name:visited {
+color : #C17535;
+font-weight : bold;
+display : inline;
+text-transform : none;
+}
+.sidebar li a.designer-name:hover, .sidebar li a.designer-name:active {
+color : #000000;
+}
+.sidebar li:hover {
+background : #D2C598;
+color : #FFFFFF;
+}
+.sidebar li:hover a.designer-name:link, .sidebar li:hover a.designer-name:visited {
+color : #FFFFFF;
+}
+.sidebar li:hover a:link, .sidebar li:hover a:visited {
+color : #000000;
+}
+
     <head>↩
     	<meta charset="utf-8">↩
     	<title>CSS Zen Garden: The Beauty of CSS Design</title>↩
