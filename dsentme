@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>ITC 102 Groupwork</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: "Raleway", Arial, sans-serif}
+body {background-color: powderblue;}
+.row img {margin-bottom: -8px}
+</style>
+<body>
+
+<!-- !PAGE CONTENT! -->
+<p><a href="https://kaitoogata.github.io/ITC-102/bios.html">Our BIOS</a></p>
+<div class="content" style="max-width:1500px">
+
+<!-- Header -->
+<header class="container xlarge padding-24">
+</header>
+
+<!-- Photo Grid -->
+<div class="row">
+<div class="half">
+<img src="pic_bulboff.gif" style="width:10%">
+<img src="picuture" style="width:10%">
+<img src="picture" style="width:10%">
+</div>
+
+<div class="half">
+<img src="" style="width:10%">
+<img src="" style="width:10%">
+</div>
+</div>
+
+<!-- End Page Content -->
+</div>
+
+
+</body>
+</html>
